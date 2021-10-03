@@ -13,17 +13,51 @@ code {
     monospace;
 }
 
+@media screen and (min-width: 1024px) {
+    .meme{
+      width: 500px;
+      max-width: 500px;
+      height: 500px;
+      max-height: 490px;
+      position: absolute;
+      left: 700px;
+      top: 100px;
+    }
 
+    .meme img {
+      margin-top: -43px;
+    }
+
+    .linea1{
+      color: white;
+      margin-top: 30px;
+      position: absolute;
+      left: 0;
+      width: 100%;
+      font-size: 38px;
+      text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+      text-transform: uppercase;
+    }
+
+    .linea2{
+      color: white;
+      margin-top: 400px;
+      position: absolute;
+      left: 0;
+      width: 100%;
+      font-size: 38px;
+      text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+      text-transform: uppercase;
+    }
+}
 .meme{
   width: 500px;
   max-width: 500px;
-  height: 500px;
   max-height: 490px;
-  position: absolute;
-  left: 700px;
-  top: 100px;
+  height: 500px;
+  position: relative;
+  margin-top: 20px;
 }
-
 .meme img {
   margin-top: -43px;
 }
